@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="12dp"
+    android:layout_marginTop="12dp">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnJsonApi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_bg"
+        android:text="@string/ApiJsonApp"
+        android:textColor="@android:color/white"
+        tools:ignore="ButtonStyle" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnImgRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@id/btnJsonApi"
+        android:background="@drawable/btn_bg"
+        android:text="Recycler with image"
+        android:textColor="@android:color/white"
+        tools:ignore="ButtonStyle" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnKeluar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="20dp"
+        android:layout_below="@id/btnImgRecycler"
+        android:text="@string/close"
+        android:textColor="@android:color/white"
+        android:background="@drawable/btn_bg_danger"
+        tools:ignore="ButtonStyle"/>
+
+
+</RelativeLayout>
